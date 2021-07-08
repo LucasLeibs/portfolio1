@@ -59,6 +59,91 @@ tl.from(".github", {delay: 10, x:50, scale:.2, transformOrigin:"center"},)
         tl6.from(".proj-pic1", { duration:.7, opacity:0, ease: Back.easeOut.config(1), x:50 },) // add animations
         .from(".proj-desc1", { duration:.7, opacity:0, ease: Back.easeOut.config(1), y:50 },'-=.7') // add animatio
 
-        $(document).ready(function(){
-            $(this).scrollTop(0);
-        });
+      
+
+         
+        // gsap.from(".blob2", { delay: 13, duration: 8, repeat: -1, opacity: 0, x:-50, y:-250, rotation: -90, yoyo:true},)
+      
+
+        gsap.to(".st0", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: -200,
+            opacity:0,
+          });
+        
+        gsap.to(".st1", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: 200,
+            opacity:0,
+          });
+        
+        gsap.to(".st2", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: 1000
+          });
+        
+        gsap.to(".st3", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: 1000
+          });
+        
+        gsap.to(".st4", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: -1000
+          });
+        gsap.to(".st5", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: -1000
+          });
+        
+        gsap.to(".st6", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: -1000
+          });
+      
+        gsap.to(".st7", {
+            scrollTrigger: {
+                trigger: ".container",
+            scrub: -1,
+            start: "top top",
+            markers: true,
+        },// start the animation when ".box" enters the viewport (once)
+            x: 1000
+          });
+      
+        

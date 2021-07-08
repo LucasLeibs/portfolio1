@@ -2,6 +2,10 @@
 .container {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  color: white;
 }
 
 .first {
@@ -141,5 +145,23 @@ section h1 {
 
 .purple {
   color: #a349f7;
+}
+
+.background {
+  position: absolute;
+  top: -5%;
+  left: -40%;
+  width: 150vw;
+  height: 28vh;
+  overflow: hidden;
+}
+
+.background1 {
+  position: absolute;
+  top: 26%;
+  left: -25%;
+  width: 150vw;
+  height: 40vh;
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
