@@ -24,6 +24,7 @@ h1 {
 
 .icons-wrapper {
   margin: 10vh 0 40vh 0;
+  z-index: 10;
 }
 
 #github {
@@ -158,10 +159,10 @@ section h1 {
 
 .background1 {
   position: absolute;
-  top: 26%;
-  left: -25%;
+  top: 15%;
+  left: -60%;
   width: 150vw;
-  height: 40vh;
+  height: 100vh;
   overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

@@ -16,6 +16,7 @@
 }
 p {
     margin: 0.5rem 0rem;
+
 }
 h1 {
     font-size: 5rem;
@@ -23,6 +24,7 @@ h1 {
 }
 .icons-wrapper {
     margin: 10vh 0 40vh 0;
+    z-index: 10;
 }
 
 #github {
@@ -139,10 +141,10 @@ overflow: hidden;
 .background1 {
 
     position: absolute;
-    top: 26%;
-    left:-25%;
+    top: 15%;
+    left:-60%;
     width: 150vw;
-    height: 40vh;
+    height: 100vh;
 overflow: hidden;
 
 

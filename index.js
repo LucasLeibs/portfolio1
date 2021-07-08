@@ -73,7 +73,8 @@ tl.from(".github", {delay: 10, x:50, scale:.2, transformOrigin:"center"},)
             markers: true,
         },// start the animation when ".box" enters the viewport (once)
             x: -200,
-            opacity:0,
+            y: 400
+           
           });
         
         gsap.to(".st1", {
@@ -84,7 +85,7 @@ tl.from(".github", {delay: 10, x:50, scale:.2, transformOrigin:"center"},)
             markers: true,
         },// start the animation when ".box" enters the viewport (once)
             x: 200,
-            opacity:0,
+    
           });
         
         gsap.to(".st2", {
